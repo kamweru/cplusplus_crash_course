@@ -2,7 +2,7 @@
 A C++17 Crash Course.
 > Notes created while going through a C++17 Crash Course 
 
-1. [C++ CLASSES](#1.-c++-classes)
+1. [C++ CLASSES](#1-c++-classes)
       - [Behaviors of attributes and functions in classes](#1a-attributes-and-functions-of-a-class-have-private-default-behavior)
       - [Behaviors of attributes and functions in structs](#1b-attributes-and-functions-of-a-struct-have-public-default-behavior)
       - [Define a Class with a member function](#1c-define-a-class-with-a-member-function)
