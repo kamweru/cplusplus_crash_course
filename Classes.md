@@ -159,7 +159,7 @@ private:
 
 // Create and manipulate a GradeBook object
 
-int main( int argc, char **argv )
+int main()
 {
     string nameOfCourse;
     GradeBook myGradeBook; // create a GradeBook object named myGradeBook
@@ -187,13 +187,11 @@ int main( int argc, char **argv )
 
 #include <iostream>
 using std::cout;
-using std::cin;
 using std::endl;
 
 
 #include <string>
 using std::string;
-using std::getline;
 
 // Define a class GradeBook that contains a courseName data member
 class GradeBook {
@@ -229,15 +227,15 @@ private:
 };
 
 // Create and manipulate a GradeBook object
-int main( int argc, char **argv )
+int main()
 {
     // create two GradeBook objects
     GradeBook gradeBook1("Introduction to C++ Programming");
     GradeBook gradeBook2("Data structures in C++");
 
     // display initial value of courseName for each GradeBook
-    cout << "gradeBook1 created for course: " << gradeBook1.getCourseName() << endl;
-    cout << "gradeBook2 created for course: " << gradeBook2.getCourseName() << endl;
+    cout << "gradeBook1 created for course: " << gradeBook1.getCourseName()
+         << "\n gradeBook2 created for course: " << gradeBook2.getCourseName() << endl;
 
     return 0;
 }       
