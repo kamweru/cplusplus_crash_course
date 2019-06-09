@@ -7,7 +7,7 @@ The definitions are considered "proprietary" details that you don't provide
 to "clients" of your class. 
 
 Rather than fully defining the class inside the curly braces, 
-we provide function prototypes i.e. provide:
+we provide function prototypes i.e.
 
 * The name of the function.
 * What the function returns
