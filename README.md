@@ -3,7 +3,12 @@ A C++17 Crash Course.
 > Notes created while going through a C++17 Crash Course 
 
 1. [C++ CLASSES](#1.-c++-classes)
-      - [Behaviors of attributes and functions in classes](#11-attributes-and-functions-of-a-class-have-private-default-behavior)
+      - [Behaviors of attributes and functions in classes](#1a-attributes-and-functions-of-a-class-have-private-default-behavior)
+      - [Behaviors of attributes and functions in structs](#1b-attributes-and-functions-of-a-struct-have-public-default-behavior)
+      - [Define a Class with a member function](#1c-define-a-class-with-a-member-function)
+      - [Define a class with a member function that takes a parameter](#1d-define-a-class-with-a-member-function-that-takes-a-parameter)
+      - [Define a class that contains a data member](#1e-define-a-class-that-contains-a-data-member)
+      - [Instantiating multiple objects of a class and using the class constructor](#1f-instantiating-multiple-objects-of-a-class-and-using-the-class-constructor)
 
 
 ### 1. C++ Classes
@@ -15,7 +20,7 @@ A C++17 Crash Course.
 > functions of a class are private. If you want a public default behavior, 
 > you can use keyword struct instead of keyword class in the declaration.
 
-##### 1.1 Attributes and functions of a CLASS have PRIVATE default behavior
+##### 1.a Attributes and functions of a CLASS have PRIVATE default behavior
 
 ``` c++
 
@@ -33,7 +38,7 @@ int main()
 
 ```
 
-##### Attributes and functions of a STRUCT have PUBLIC default behavior
+##### 1.b Attributes and functions of a STRUCT have PUBLIC default behavior
 
 ``` c++ 
 
@@ -51,7 +56,7 @@ int main()
 
 ```
 
-##### Define a class with a member function
+##### 1.c Define a class with a member function
 
 ``` c++
 
@@ -80,7 +85,7 @@ int main()
 
 ```
 
-##### Define a class with a member function that takes a parameter
+##### 1.d Define a class with a member function that takes a parameter
 
 ``` c++
 
@@ -123,7 +128,7 @@ int main()
 
 ```
 
-##### Define a class that contains a data member
+##### 1.e Define a class that contains a data member
 
 ``` c++
 
@@ -189,7 +194,7 @@ int main()
 
 ```
 
- ##### Instantiating multiple objects of a class and using the class constructor
+ ##### 1.f Instantiating multiple objects of a class and using the class constructor
 
 ``` c++
 
