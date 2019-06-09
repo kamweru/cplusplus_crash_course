@@ -2,17 +2,11 @@
 A C++17 Crash Course.
 > Notes created while going through a C++17 Crash Course 
 
-| Topic | Link |
-| ------ | ------ |
-| C++ Classes | [C++ CLASSES](#classes)|
-| Separate Class File | [Separate Class File](SeparateClassFile.md) |
-| Separate Interface From Implementation | [Separate Interface From Implementation](SeparateInterfaceFromImpementation.md) |
-
-[click on this link](#my-multi-word-header)
+1. [C++ CLASSES](#1.-c++-classes)
+      - [Behaviors of attributes and functions in classes](#11-attributes-and-functions-of-a-class-have-private-default-behavior)
 
 
-
-### C++ Classes #classes
+### 1. C++ Classes
 
 > A class might be considered as an extended concept of a data structure:
 > instead of holding only data, it can hold both data and functions.
@@ -21,7 +15,7 @@ A C++17 Crash Course.
 > functions of a class are private. If you want a public default behavior, 
 > you can use keyword struct instead of keyword class in the declaration.
 
-##### Attributes and functions of a CLASS have PRIVATE default behavior
+##### 1.1 Attributes and functions of a CLASS have PRIVATE default behavior
 
 ``` c++
 
@@ -85,7 +79,7 @@ int main()
 }
 
 ```
-### My Multi Word Header
+
 ##### Define a class with a member function that takes a parameter
 
 ``` c++
