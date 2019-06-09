@@ -5,3 +5,5 @@ A C++17 Crash Course.
 [C++ CLASSES](Classes.md)
 
 [Separate Class File](SeparateClassFile.md)
+
+[Separate Class File](SeparateInterfaceFromImpementation.md)
