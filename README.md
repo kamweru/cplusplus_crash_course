@@ -6,4 +6,4 @@ A C++17 Crash Course.
 
 [Separate Class File](SeparateClassFile.md)
 
-[Separate Class File](SeparateInterfaceFromImpementation.md)
+[Separate Interface From Impementation](SeparateInterfaceFromImpementation.md)
